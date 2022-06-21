@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommandTrade
+comment0.text=\r\n\ T\u0159\u00EDda\ implementuj\u00EDc\u00ED\ p\u0159\u00EDkaz\ pro\ v\u00FDm\u011Bnu\ s\ postavami.\r\n\ T\u0159\u00EDda\ \u0159e\u0161\u00ED,\ co\ s\ k\u00FDm\ se\ d\u00E1\ obchodovat\ a\ za\ jak\u00FDch\ podm\u00EDnek.\r\n\r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=plan
+comment1.target=CommandTrade(GamePlan)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ plan\ odkaz\ na\ hern\u00ED\ pl\u00E1n\ s\ aktu\u00E1ln\u00EDm\ stavem\ hry\r\n
+comment2.params=parameters
+comment2.target=java.lang.String\ process(java.lang.String[])
+comment2.text=\r\n\ Metoda\ process\ p\u0159edstavuje\ logiky\ p\u0159\u00EDkazu\ "vymen".\r\n\ Metoda\ \u0159e\u0161\u00ED\ za\ jak\u00FDch\ podm\u00EDnek\ m\u016F\u017Eeme\ s\ postavou\ obchodovat,\ jestli\ n\u00E1hodou\ nejsme\ v\ boji.\r\n\ P\u0159i\ spln\u011Bn\u00ED\ podm\u00EDnek\ ur\u010D\u00ED\ jak\ v\u00FDm\u011Bna\ bude\ vypada\ a\ jak\u00E1\ p\u0159edm\u011Bty\ se\ budou\ vym\u011Bnovat.\r\n\r\n\ @param\ parameters\ parametry\ p\u0159\u00EDkazu\ <i>(o\u010Dek\u00E1v\u00E1\ se\ pole\ s\ dv\u011Bma\ prvky)</i>\r\n\ @return\ informace\ pro\ hr\u00E1\u010De,\ kter\u00E9\ se\ vyp\u00ED\u0161ou\ na\ konzoli\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.\ slovo\ podle\ kter\u00E9ho\ se\ p\u0159\u00EDkaz\ vol\u00E1.\r\n\ V\ tomto\ p\u0159\u00EDpad\u011B\ "vymen".\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+numComments=4

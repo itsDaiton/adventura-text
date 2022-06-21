@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ListOfCommandsTest
+comment0.text=\r\n\ Testovac\u00ED\ t\u0159\u00EDda\ pro\ komplexn\u00ED\ otestov\u00E1n\u00ED\ t\u0159\u00EDdy\ {@link\ ListOfCommands}.\r\n\r\n\ @author\ Lubo\u0161\ Pavl\u00ED\u010Dek\r\n\ @author\ Jan\ \u0158\u00EDha\r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Metoda\ setUp\ p\u0159ipravuje\ instance,\ kter\u00E9\ bude\ pot\u0159ebn\u00E9\ k\ testov\u00E1n\u00ED\ t\u0159\u00EDdy.\r\n\r\n
+comment2.params=
+comment2.target=void\ testAddAndGetCommand()
+comment2.text=\r\n\ Metoda\ testAddAndGetCommand\ testuje\ p\u0159id\u00E1v\u00E1n\u00ED\ a\ z\u00EDsk\u00E1v\u00E1n\u00ED\ p\u0159\u00EDkaz\u016F.\r\n\r\n
+comment3.params=
+comment3.target=void\ testCheckCommand()
+comment3.text=\r\n\ Metoda\ testCheckCommand\ testuje\ kontrolu\ p\u0159\u00EDkazu.\r\n\r\n
+comment4.params=
+comment4.target=void\ testGetNames()
+comment4.text=\r\n\ Metoda\ testGetNames\ testuje\ z\u00EDsk\u00E1v\u00E1n\u00ED\ jm\u00E9n\ p\u0159\u00EDkaz\u016F.\r\n\r\n
+numComments=5

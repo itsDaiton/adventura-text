@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=InventoryTest
+comment0.text=\r\n\ Testovac\u00ED\ t\u0159\u00EDda\ pro\ komplexn\u00ED\ otestov\u00E1n\u00ED\ t\u0159\u00EDdy\ Inventory.\r\n\ V\ t\u00E9to\ t\u0159\u00EDde\ se\ testuje\ kapacita\ invent\u00E1\u0159e,\ p\u0159id\u00E1v\u00E1n\u00ED\ a\ odeb\u00EDr\u00E1n\u00ED\ p\u0159edm\u011Bt\u016F.\r\n\ \r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Metoda\ setUp\ p\u0159ipravuje\ instance,\ kter\u00E9\ bude\ pot\u0159ebn\u00E9\ k\ testov\u00E1n\u00ED\ t\u0159\u00EDdy.\r\n\r\n
+comment2.params=
+comment2.target=void\ testIsFull()
+comment2.text=\r\n\ Metoda\ testIsFull\ testuje\ funk\u010Dnost\ metody\ "isFull".\r\n\r\n
+comment3.params=
+comment3.target=void\ testAddItem()
+comment3.text=\r\n\ Metoda\ testAddItem\ testuje\ funk\u010Dnost\ metody\ "addItem".\r\n\r\n
+comment4.params=
+comment4.target=void\ testRemoveItem()
+comment4.text=\r\n\ Metoda\ testRemoveItem\ testuje\ funk\u010Dnost\ metody\ "removeItem".\r\n\r\n
+numComments=5

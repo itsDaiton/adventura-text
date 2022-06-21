@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TextUI
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ u\u017Eivatelsk\u00E9\ rozhran\u00ED\ hry.\ T\u0159\u00EDda\ \u010Dte\ vstup\ zadan\u00FD\r\n\ u\u017Eivatelem\ a\ p\u0159ed\u00E1v\u00E1\ tento\ \u0159et\u011Bzec\ logice\ hry,\ n\u00E1sledn\u011B\ vypisuje\r\n\ odpov\u011B\u010F\ logiky\ na\ konzoli.\r\n\r\n\ @author\ Michael\ K\u00F6lling\r\n\ @author\ Lubo\u0161\ Pavl\u00ED\u010Dek\r\n\ @author\ Jarmila\ Pavl\u00ED\u010Dkov\u00E1\r\n\ @author\ Jan\ \u0158\u00EDha\r\n\ @version\ LS\ 2020\r\n
+comment1.params=game
+comment1.target=TextUI(model.IGame)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\ Vytv\u00E1\u0159\u00ED\ nov\u00E9\ textov\u00E9\ rozhran\u00ED\ pro\ hru.\r\n\r\n\ @param\ game\ instance\ logiky\ hry\r\n
+comment2.params=
+comment2.target=void\ play()
+comment2.text=\r\n\ Hlavn\u00ED\ metoda\ hry.\ Vyp\u00ED\u0161e\ \u00FAvodn\u00ED\ text\ a\ pak\ v\ cyklu\ opakuje\ na\u010Dten\u00ED\r\n\ a\ zpracov\u00E1n\u00ED\ p\u0159\u00EDkazu\ od\ hr\u00E1\u010De\ dokud\ hra\ neskon\u010D\u00ED\ <i>(dokud\ metoda\r\n\ {@link\ IGame\#isGameOver()\ isGameOver}\ z\ logiky\ hry\ nevr\u00E1t\u00ED\ hodnotu\r\n\ {@code\ true})</i>.\ Nakonec\ vyp\u00ED\u0161e\ text\ epilogu.\r\n
+comment3.params=fileName
+comment3.target=void\ play(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ readLine()
+comment4.text=\r\n\ Pomocn\u00E1\ metoda\ pro\ \u010Dten\u00ED\ p\u0159\u00EDkaz\u016F\ z\ konzole.\r\n\r\n\ @return\ \u0159\u00E1dek\ textu\ z\ konzole\r\n
+numComments=5

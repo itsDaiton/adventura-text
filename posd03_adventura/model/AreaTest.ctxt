@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AreaTest
+comment0.text=\r\n\ Testovac\u00ED\ t\u0159\u00EDda\ pro\ komplexn\u00ED\ otestov\u00E1n\u00ED\ t\u0159\u00EDdy\ Area.\r\n\r\n\ @author\ Jarmila\ Pavl\u00ED\u010Dkov\u00E1\r\n\ @author\ Jan\ \u0158\u00EDha\r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=
+comment1.target=void\ testAreaExits()
+comment1.text=\r\n\ Metoda\ testAreaExits\ testuje\ fun\u010Dknost\ v\u00FDchod\u016F\ ze\ t\u0159\u00EDdy\ Area.\r\n\r\n
+comment2.params=
+comment2.target=void\ testItems()
+comment2.text=\r\n\ Metoda\ testItems\ testuje\ funk\u010Dnost\ p\u0159edm\u011Bt\u016F\ v\ lokac\u00EDch,\ tzn.\ p\u0159id\u00E1v\u00E1n\u00ED,\ odeb\u00EDr\u00E1n\u00ED,\ jestli\ se\ tam\ nach\u00E1z\u00ED\ atd.\r\n\r\n
+numComments=3

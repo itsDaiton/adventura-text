@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommandPick
+comment0.text=\r\n\ T\u0159\u00EDda\ implementuj\u00EDc\u00ED\ p\u0159\u00EDkaz\ pro\ sb\u00EDr\u00E1n\u00ED\ p\u0159edm\u011Bt\u016F\ do\ invent\u00E1\u0159e\ a\ sb\u00EDr\u00E1n\u00ED\ zbran\u00ED.\r\n\ T\u0159\u00EDda\ \u0159e\u0161\u00ED\ za\ jak\u00FDch\ podm\u00EDnek\ a\ jak\ se\ jednotliv\u00E9\ p\u0159edm\u011Bty\ a\ zbran\u011B\ sb\u00EDraj\u00ED\ do\ invent\u00E1\u0159e.\r\n\r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=plan
+comment1.target=CommandPick(GamePlan)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ plan\ odkaz\ na\ hern\u00ED\ pl\u00E1n\ s\ aktu\u00E1ln\u00EDm\ stavem\ hry\r\n
+comment2.params=parameters
+comment2.target=java.lang.String\ process(java.lang.String[])
+comment2.text=\r\n\ Metoda\ process\ p\u0159edstavuje\ logiky\ p\u0159\u00EDkazu\ "seber".\r\n\ Metoda\ \u0159e\u0161\u00ED\ za\ jak\u00FDch\ podm\u00EDnek\ se\ p\u0159edm\u011Bty\ mohou\ sb\u00EDrat\ do\ invent\u00E1\u0159e.\r\n\ Kontroluje\ se\ jestli\ je\ p\u0159edm\u011Bt\ zbra\u0148\ \u010Di\ jen\ v\u011Bc\ a\ po\ spln\u011Bn\u00ED\ podm\u00EDnek\ se\ p\u0159id\u00E1\ do\ invent\u00E1\u0159e\r\n\ Tak\u00E9\ se\ kontroluje\ kapacita\ invent\u00E1\u0159e.\r\n\r\n\ @param\ parameters\ parametry\ p\u0159\u00EDkazu\ <i>(o\u010Dek\u00E1v\u00E1\ se\ pole\ s\ jedn\u00EDm\ prvkem)</i>\r\n\ @return\ informace\ pro\ hr\u00E1\u010De,\ kter\u00E9\ se\ vyp\u00ED\u0161ou\ na\ konzoli\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.\ slovo\ podle\ kter\u00E9ho\ se\ p\u0159\u00EDkaz\ vol\u00E1.\r\n\ V\ tomto\ p\u0159\u00EDpad\u011B\ "seber".\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+numComments=4

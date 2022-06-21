@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyCharacter
+comment0.text=\r\n\ T\u0159\u00EDda\ MyCharacter\ je\ pomocn\u00E1\ t\u0159\u00EDda\ pro\ boj\ s\ nep\u0159\u00E1teli\ v\ p\u0159\u00EDkazu\ "bojuj".\r\n\ Obsahuje\ pouze\ metody\ pro\ "p\u0159epravu"\ dat.\ \r\n\ \r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=
+comment1.target=MyCharacter()
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy\ MyCharacter\r\n\ Pou\u017Ee\ se\ nastavuj\u00ED\ defaultn\u00ED\ \u017Eivoty\ na\ 250.\r\n
+comment2.params=
+comment2.target=int\ getHealthPoints()
+comment2.text=\r\n\ Metoda\ getHealthPoints\ vrac\u00ED\ aktu\u00E1ln\u00ED\ \u017Eivoty\ hr\u00E1\u010De\ p\u0159i\ boji.\r\n\r\n\ @return\ healthPoints\ Aktu\u00E1ln\u00ED\ hodnota\ \u017Eivot\u016F\r\n
+comment3.params=healthPoints
+comment3.target=void\ setHealthPoints(int)
+comment3.text=\r\n\ Methtoda\ setHealthPoints\ nastavuje\ \u017Eivota\ hr\u00E1\u010De\ na\ novou\ hodnotu\ zadanou\ v\ parametru.\r\n\r\n\ @param\ healthPoints\ Nov\u00E1\ hodnota\ \u017Eivot\u016F\r\n
+numComments=4

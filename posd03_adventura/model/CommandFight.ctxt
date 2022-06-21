@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommandFight
+comment0.text=\r\n\ T\u0159\u00EDda\ implementuj\u00EDc\u00ED\ p\u0159\u00EDkaz\ pro\ boj\ s\ postavami.\r\n\ Rozhoduje\ s\ kter\u00FDmi\ postavami\ se\ d\u00E1\ bojovat\ a\ s\ kter\u00FDmi\ ne\ a\ za\ jak\u00FDch\ podm\u00EDnek.\r\n\ D\u00E1le\ se\ rozhoduje\ co\ se\ stane\ po\ boji.\r\n\ \r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=plan\ game
+comment1.target=CommandFight(GamePlan,\ Game)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ plan\ odkaz\ na\ hern\u00ED\ pl\u00E1n\ s\ aktu\u00E1ln\u00EDm\ stavem\ hry\r\n\ @param\ game\ odkaz\ na\ hru\r\n
+comment2.params=parameters
+comment2.target=java.lang.String\ process(java.lang.String[])
+comment2.text=\r\n\ Metoda\ process\ p\u0159edstavuje\ logiky\ p\u0159\u00EDkazu\ "bojuj".\r\n\ V\ metod\u011B\ jsou\ implementov\u00E1ny\ z\u00E1kladn\u00ED\ podm\u00EDnky\ pro\ boj.\r\n\ Samotn\u00FD\ boj\ se\ po\u010D\u00EDt\u00E1\ p\u0159es\ vzorce.\r\n\ Je\ \u0161ance\ na\ kritick\u00FD\ \u00FAtok\ a\ na\ odra\u017Een\u00ED.\r\n\ Po\ souboji\ se\ rozhodne\ co\ d\u00E1l\ s\ hrou.\r\n\ Mrtvoly\ se\ daj\u00ED\ prozkoumat\r\n\r\n\ @param\ parameters\ parametry\ p\u0159\u00EDkazu\ <i>(o\u010Dek\u00E1v\u00E1\ se\ pole\ s\ jedn\u00EDm\ prvkem)</i>\r\n\ @return\ informace\ pro\ hr\u00E1\u010De,\ kter\u00E9\ se\ vyp\u00ED\u0161ou\ na\ konzoli\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.\ slovo\ podle\ kter\u00E9ho\ se\ p\u0159\u00EDkaz\ vol\u00E1.\r\n\ V\ tomto\ p\u0159\u00EDpad\u011B\ "bojuj".\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+numComments=4

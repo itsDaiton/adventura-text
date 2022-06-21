@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CommandTalk
+comment0.text=\r\n\ T\u0159\u00EDda\ implementuj\u00EDc\u00ED\ p\u0159\u00EDkaz\ pro\ mluven\u00ED\ s\ postavami.\r\n\ Rozhoduje\ s\ kter\u00FDmi\ postavami\ se\ d\u00E1\ mluvit\ a\ s\ kter\u00FDmi\ ne.\r\n\ \r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=plan\ game
+comment1.target=CommandTalk(GamePlan,\ Game)
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\r\n\r\n\ @param\ plan\ odkaz\ na\ hern\u00ED\ pl\u00E1n\ s\ aktu\u00E1ln\u00EDm\ stavem\ hry\r\n\ @param\ game\ odkaz\ na\ hru\r\n
+comment2.params=parameters
+comment2.target=java.lang.String\ process(java.lang.String[])
+comment2.text=\r\n\ Metoda\ process\ p\u0159edstavuje\ logiky\ p\u0159\u00EDkazu\ "promluv".\r\n\ Metoda\ \u0159e\u0161\u00ED\ jak\ a\ za\ jak\u00FDch\ podm\u00EDnek\ se\ bude\ moct\ mluvit\ s\ postavami.\r\n\ Pokud\ se\ spln\u00ED\ z\u00E1kladn\u00ED\ podm\u00EDnky\ mluven\u00ED,\ tak\ se\ je\u0161t\u011B\ kontroluje,\ jestli\ se\ mluv\u00ED\r\n\ s\ nep\u0159\u00EDtelem\ a\ hr\u00E1\u010D\ nem\u00E1\ zbra\u0148,\ tak\ \u017Ee\ zem\u0159e\ a\ hra\ kon\u010D\u00ED.\r\n\r\n\ @param\ parameters\ parametry\ p\u0159\u00EDkazu\ <i>(o\u010Dek\u00E1v\u00E1\ se\ pole\ s\ jedn\u00EDm\ prvkem)</i>\r\n\ @return\ informace\ pro\ hr\u00E1\u010De,\ kter\u00E9\ se\ vyp\u00ED\u0161ou\ na\ konzoli\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ Metoda\ vrac\u00ED\ n\u00E1zev\ p\u0159\u00EDkazu\ tj.\ slovo\ podle\ kter\u00E9ho\ se\ p\u0159\u00EDkaz\ vol\u00E1.\r\n\ V\ tomto\ p\u0159\u00EDpad\u011B\ "promluv".\r\n\r\n\ @return\ n\u00E1zev\ p\u0159\u00EDkazu\r\n
+numComments=4

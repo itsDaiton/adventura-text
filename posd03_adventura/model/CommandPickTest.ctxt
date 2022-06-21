@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CommandPickTest
+comment0.text=\r\n\ Testovac\u00ED\ t\u0159\u00EDda\ pro\ komplexn\u00ED\ otestov\u00E1n\u00ED\ t\u0159\u00EDdy\ CommandPick.\r\n\ V\ t\u00E9to\ t\u0159\u00EDde\ se\ testuje\ metoda\ process,\ tud\u00ED\u017E\ jestli\ p\u0159\u00EDkaz\ funguje.\r\n\ \r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Metoda\ setUp\ vrac\u00ED\ aktu\u00E1ln\u00ED\ stav\ hry\ pro\ testov\u00E1n\u00ED.\r\n\r\n
+comment2.params=
+comment2.target=void\ testProcess()
+comment2.text=\r\n\ Metoda\ testProcess\ testuje\ metodu\ "process"\ z\ p\u0159\u00EDkazu\ "CommandPick".\r\n\r\n
+numComments=3

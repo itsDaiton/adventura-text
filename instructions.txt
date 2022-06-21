@@ -1,0 +1,13 @@
+- Autor: David Poslušný
+- Verze: LS 2020
+- Popis programu:
+
+Hra je jednoduchá textová fantasy adventura s prvkami RPG her. 
+Hráč hru ovládá přes konzoli a využívá příkazy pro určení průběhu hry.
+Hra probíha v prostředí fantasy země Tamriel, kde se hráč hraje za Edwarda, zaklínače.
+
+Úkolem hráče je zabít bestii nedaleko města Riften, vzít její hlavu a donést ji Starostovi města jako důkaz jeho činu.
+Hráč může bojat s nepřáteli, obchodovat s postavami, sbírat předměty, používat předměty atd...
+Hráč si můžeš vylepšovat zbraňě a životy a tyto statistiky si společně s obsahem inventáře vypisovat.
+
+Hráč vyhraje když přinese hlavu Starostovi a prohraje když umře při boji.

@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=GamePlan
+comment0.text=\r\n\ T\u0159\u00EDda\ p\u0159edstavuj\u00EDc\u00ED\ aktu\u00E1ln\u00ED\ stav\ hry.\ Ve\u0161ker\u00E9\ informace\ o\ stavu\ hry\r\n\ <i>(mapa\ lokac\u00ED,\ invent\u00E1\u0159,\ vlastnosti\ hlavn\u00ED\ postavy,\ informace\ o\ pln\u011Bn\u00ED\r\n\ \u00FAkol\u016F\ apod.)</i>\ by\ m\u011Bly\ b\u00FDt\ ulo\u017Een\u00E9\ zde\ v\ podob\u011B\ datov\u00FDch\ atribut\u016F.\r\n\ <p>\r\n\ T\u0159\u00EDda\ existuje\ p\u0159edev\u0161\u00EDm\ pro\ usnadn\u011Bn\u00ED\ potenci\u00E1ln\u00ED\ implementace\ ukl\u00E1d\u00E1n\u00ED\r\n\ a\ na\u010D\u00EDt\u00E1n\u00ED\ hry.\ Pro\ ulo\u017Een\u00ED\ rozehran\u00E9\ hry\ do\ souboru\ by\ m\u011Blo\ sta\u010Dit\ ulo\u017Eit\r\n\ \u00FAdaje\ z\ objektu\ t\u00E9to\ t\u0159\u00EDdy\ <i>(nap\u0159.\ pomoc\u00ED\ serializace\ objektu)</i>.\ Pro\r\n\ na\u010Dten\u00ED\ ulo\u017Een\u00E9\ hry\ ze\ souboru\ by\ m\u011Blo\ sta\u010Dit\ vytvo\u0159it\ objekt\ t\u00E9to\ t\u0159\u00EDdy\r\n\ a\ vhodn\u00FDm\ zp\u016Fsobem\ ho\ p\u0159edat\ instanci\ t\u0159\u00EDdy\ {@link\ Game}.\r\n\r\n\ @author\ Michael\ K\u00F6lling\r\n\ @author\ Lubo\u0161\ Pavl\u00ED\u010Dek\r\n\ @author\ Jarmila\ Pavl\u00ED\u010Dkov\u00E1\r\n\ @author\ Jan\ \u0158\u00EDha\r\n\ @author\ David\ Poslu\u0161n\u00FD\r\n\ @version\ LS\ 2020\r\n\r\n\ @see\ <a\ href\="https\://java.vse.cz/4it101/AdvSoubory">Postup\ pro\ implementaci\ ukl\u00E1d\u00E1n\u00ED\ a\ na\u010D\u00EDt\u00E1n\u00ED\ hry\ na\ p\u0159edm\u011Btov\u00E9\ wiki</a>\r\n\ @see\ java.io.Serializable\r\n
+comment1.params=
+comment1.target=GamePlan()
+comment1.text=\r\n\ Konstruktor\ t\u0159\u00EDdy.\ Pomoc\u00ED\ metody\ {@link\ \#prepareWorldMap()\ prepareWorldMap}\r\n\ vytvo\u0159\u00ED\ jednotliv\u00E9\ lokace\ a\ propoj\u00ED\ je\ pomoc\u00ED\ v\u00FDchod\u016F.\r\n
+comment10.params=
+comment10.target=Item\ getHead()
+comment10.text=\r\n\ Metoda\ getHead\ vrac\u00ED\ hlavu\ bestie.\r\n\r\n\ @return\ hlavaBestie\ P\u0159edm\u011Bt\ pot\u0159ebn\u00FD\ pro\ v\u00FDhru\r\n
+comment2.params=
+comment2.target=void\ prepareWorldMap()
+comment2.text=\r\n\ Metoda\ vytv\u00E1\u0159\u00ED\ jednotliv\u00E9\ postavy,\ p\u0159edm\u011Bty\ a\ d\u00E1le\ lokace,\ kter\u00E9\ propojuje\ pomoc\u00ED\ v\u00FDchod\u016F.\ \r\n\ Jako\ v\u00FDchoz\u00ED\ aktu\u00E1ln\u00ED\ lokaci\ n\u00E1sledn\u011B\ nastav\u00ED\ P\u0159edm\u011Bst\u00ED.\r\n
+comment3.params=
+comment3.target=Area\ getCurrentArea()
+comment3.text=\r\n\ Metoda\ vrac\u00ED\ odkaz\ na\ aktu\u00E1ln\u00ED\ lokaci,\ ve\ kter\u00E9\ se\ hr\u00E1\u010D\ pr\u00E1v\u011B\ nach\u00E1z\u00ED.\r\n\r\n\ @return\ aktu\u00E1ln\u00ED\ lokace\r\n
+comment4.params=area
+comment4.target=void\ setCurrentArea(Area)
+comment4.text=\r\n\ Metoda\ nastav\u00ED\ aktu\u00E1ln\u00ED\ lokaci,\ pou\u017E\u00EDv\u00E1\ ji\ p\u0159\u00EDkaz\ {@link\ CommandMove}\r\n\ p\u0159i\ p\u0159echodu\ mezi\ lokacemi.\r\n\r\n\ @param\ area\ lokace,\ kter\u00E1\ bude\ nastavena\ jako\ aktu\u00E1ln\u00ED\r\n
+comment5.params=
+comment5.target=boolean\ isVictorious()
+comment5.text=\r\n\ Metoda\ isVictorious\ vrac\u00ED\ informaci\ jestli\ hr\u00E1\u010D\ vyhr\u00E1l.\r\n\r\n\ @return\ victorious\ Skute\u010Dnost,\ jestli\ hr\u00E1\u010D\ vyhr\u00E1l\r\n
+comment6.params=victorious
+comment6.target=void\ setVictorious(boolean)
+comment6.text=\r\n\ Metoda\ setVictorious\ nastavuje\ jestli\ hr\u00E1\u010D\ vyhr\u00E1l\ nebo\ ne.\r\n\r\n\ @param\ victorious\ Skute\u010Dnost,\ jestli\ hr\u00E1\u010D\ vyhr\u00E1l\ nebo\ ne.\r\n
+comment7.params=
+comment7.target=Inventory\ getInventory()
+comment7.text=\r\n\ Metoda\ getInventory\ vrac\u00ED\ invent\u00E1\u0159.\r\n\r\n\ @return\ inventory\ Instance\ invent\u00E1\u0159e\r\n
+comment8.params=
+comment8.target=Character\ getCharacter()
+comment8.text=\r\n\ Metoda\ getCharacter\ vrac\u00ED\ postavu.\r\n\r\n\ @return\ character\ Instance\ t\u0159\u00EDdy\ Character\r\n
+comment9.params=
+comment9.target=MyCharacter\ getMyCharacter()
+comment9.text=\r\n\ Metoda\ getMyCharacter\ vrac\u00ED\ instanci\ t\u0159\u00EDdy\ MyCharacter.\r\n\r\n\ @return\ myCharacter\ Instance\ pomocn\u00E9\ t\u0159\u00EDdy\ MyCharacter\r\n
+numComments=11
